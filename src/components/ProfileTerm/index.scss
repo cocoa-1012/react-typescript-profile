@@ -1,0 +1,32 @@
+.ProfileTerm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px 18px 9px;
+  .MainContainer {
+    color: black;
+  }
+  .ExperienceItem {
+    font-size: 9px;
+    .DevelopeStyle {
+      color: #fc5185;
+    }
+    .DevelopeEducation {
+      color: #364f74;
+    }
+  }
+  .ExperienceContainer {
+    display: flex;
+    .BagIcon {
+      width: 15px;
+      height: 15px;
+    }
+    .ExperienceList {
+      margin-left: 3px;
+    }
+  }
+  .ExperienceTitle {
+    color: #000000;
+    margin-left: 18px;
+  }
+}

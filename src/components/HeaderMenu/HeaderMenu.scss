@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+.HeaderMenuSpace {
+  .HeaderBar {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 9px 12px;
+    background: #364f74;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    .HeaderBarLeft {
+      color: white;
+      font-size: 14px;
+      text-decoration: none;
+      .HeaderAbc {
+        color: #fc6794;
+      }
+    }
+    .HeaderBarRight {
+      font-size: 12px;
+      .HeaderBarRightEnd {
+        padding-left: 24px;
+      }
+    }
+  }
+}

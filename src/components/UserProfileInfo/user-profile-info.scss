@@ -1,0 +1,66 @@
+.UerProfileInfo {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 10px 16px 0 17px;
+  .ProfileInfo {
+    padding-top: 10px;
+    .ProfileInfo1 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      img {
+        margin-top: 3px;
+        margin-left: 7px;
+        width: 15px;
+        height: 15px;
+      }
+      span {
+        text-decoration: underline;
+      }
+      .twitter_img {
+        padding-top: 4px;
+      }
+    }
+  }
+
+  .UserProfileSpace {
+    display: flex;
+    .UserProfileAvatar {
+      .inner_circle {
+        background-image: linear-gradient(to bottom, #fc5185 0%, #364f74 100%);
+        content: "";
+        position: absolute;
+        top: -2px;
+        bottom: -2px;
+        right: -2px;
+        left: -2px;
+        z-index: -1;
+        border-radius: inherit;
+      }
+    }
+    .UserProfileText {
+      margin-top: 5px;
+      margin-left: 10px;
+      font-size: 12px;
+      .UserHeaderText {
+        font-size: 24px;
+        color: black;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+      .UserSkill {
+        font-weight: 400;
+        color: black;
+      }
+      .UserPosition {
+        font-weight: 300;
+      }
+      .UserYear {
+        color: #fd6794;
+      }
+    }
+  }
+}
